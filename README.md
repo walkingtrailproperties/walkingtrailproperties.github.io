@@ -1,2 +1,2 @@
 # walkingtrailproperties.github.io
-Walking Trail Properties - Static Webpage
+Walking Trail Properties - Static Webpage 
