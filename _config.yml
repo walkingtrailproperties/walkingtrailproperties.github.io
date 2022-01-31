@@ -43,6 +43,8 @@ logo: "/assets/images/300x186.png"
 #   - vendor/gems/
 #   - vendor/ruby/
 
+include: ["_pages"]
+
 atom_feed:
   hide: true
 
