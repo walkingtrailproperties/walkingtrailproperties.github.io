@@ -17,7 +17,7 @@ theme: minimal-mistakes-jekyll
 minimal_mistakes_skin: "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 locale: "en-US"
 masthead_title: "Walking Trail Properties"
-breadcrumbs: true
+breadcrumbs: false
 search: false
 timezone: America/Los_Angeles
 subtitle: "San Diego CA Rental Properties"
