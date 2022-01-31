@@ -1,24 +1,27 @@
-title: Your awesome title
+title: Walking Trail Properties
 email: admin@walkingtrailproperties.com
 description: >- # this means to ignore newlines until "baseurl:"
   Walking Trail Properties
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://walkingtrailproperties.com" # the base hostname & protocol for your site, e.g. http://example.com
 future: true
 # twitter_username: jekyllrb
-# github_username:  jekyll
+github_username:  walkingtrailproperties
+repository: "walkingtrailproperties/walkingtrailproperties.github.io"
 
-# Build settings
+# --
+# man page
+# https://mmistakes.github.io/minimal-mistakes/docs/configuration/
+# --
 theme: minimal-mistakes-jekyll
-plugins:
-  - jekyll-feed
-  - jekyll-avatar
-  - jekyll-sitemap
-  - jekyll-paginate
-  - jekyll-seo-tag
-  - jekyll-gist
-  - jekyll-include-cache
-  - jekyll-paginate
+minimal_mistakes_skin: "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+locale: "en-US"
+masthead_title: "Walking Trail Properties"
+breadcrumbs: true
+search: false
+timezone: America/Los_Angeles
+subtitle: "San Diego CA Rental Properties"
+logo: "/assets/images/300x186.png"
 
 # Exclude from processing.
 # The following items will not be processed, by default.
@@ -39,3 +42,49 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+atom_feed:
+  hide: true
+
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
+
+category_archive:
+  type: jekyll-archives
+  path: /categories/
+tag_archive:
+  type: jekyll-archives
+  path: /tags/
+jekyll-archives:
+  enabled:
+    - categories
+    - tags
+  layouts:
+    category: archive-taxonomy
+    tag: archive-taxonomy
+  permalinks:
+    category: /categories/:name/
+    tag: /tags/:name/
+
+
+# Build settings
+plugins:
+  - jekyll-feed
+  - jekyll-avatar
+  - jekyll-sitemap  
+  - jekyll-paginate
+  - jekyll-seo-tag
+  - jekyll-gist
+  - jekyll-include-cache
+  - jekyll-paginate
+  - jekyll-archives
