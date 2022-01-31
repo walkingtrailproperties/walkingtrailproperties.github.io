@@ -13,7 +13,7 @@ repository: "walkingtrailproperties/walkingtrailproperties.github.io"
 # man page
 # https://mmistakes.github.io/minimal-mistakes/docs/configuration/
 # --
-theme: minimal-mistakes-jekyll
+remote_theme : "mmistakes/minimal-mistakes"
 minimal_mistakes_skin: "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 locale: "en-US"
 masthead_title: "Walking Trail Properties"
