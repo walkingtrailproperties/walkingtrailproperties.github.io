@@ -3,11 +3,12 @@ layout: single
 title: Contact Us
 permalink: /contact
 ---
-
+<script src="https://www.google.com/recaptcha/api.js" async defer></script>
 <div class="row py-4">
     <div class="col-md-12">
     <div class="well well-sm">
         <form class="form-horizontal" action="https://usebasin.com/f/86c69c16b05d" method="post">
+        <div class="g-recaptcha" data-sitekey="6Le_mU0eAAAAAIoHjc8gtXKh-AMImDh2zUCf8J_b"></div>
         <input type="hidden" name="only_for_bots">
         <fieldset>
         <!-- Name input-->
