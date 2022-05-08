@@ -1,2 +1,1 @@
-# walkingtrailproperties.github.io
-Walking Trail Properties - Static Webpage 
+[https://walkingtrailproperties.com/](https://walkingtrailproperties.com/)
